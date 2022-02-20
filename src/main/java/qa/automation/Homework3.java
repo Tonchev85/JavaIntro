@@ -85,5 +85,18 @@ public class Homework3 {
         if (thirdNumber>largest) largest = thirdNumber;
 
         System.out.println("The largest number is :" + largest);
+
+        System.out.println("======================");
+
+        System.out.println("Please enter a number: ");
+
+        int yourNumber = scanner.nextInt();
+
+        if(number % 2 == 0) {
+            System.out.println(" The number: " + yourNumber + " is even.");
+        }
+        else{
+            System.out.println(" The number: " + yourNumber + " is odd.");
+        }
     }
 }
