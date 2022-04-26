@@ -6,7 +6,6 @@ public class Cat extends Animal{
         super(name, breed, age, address);
     }
     public Cat(){
-        super("", "", 0, false);
     }
 
     public void voice(){

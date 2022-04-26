@@ -13,6 +13,9 @@ public class Animal {
         setAddress(address);
     }
 
+    public Animal (){
+    }
+
     public String getName() {
         return name;
     }
